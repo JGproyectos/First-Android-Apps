@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/mothers_day"
+    tools:context="com.unique.jcellomarcano.paramami.MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="Que pases un bello dia, con amor"
+        android:textSize="30dp"
+        android:id="@+id/textView2"
+        android:textStyle="bold"
+        android:textColor="#FF2BE0"
+        android:fontFamily="cursive"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Que hoy sea un dia de luz, de cariños, de felicidad, amapuches y regocijo a montones. \nQue la paz reine en el núcleo familiar y el calor de la unión arrope, arrulle y consientan el bello amor que yace en la familia. \nPara hoy, que lluevan sonrían y que la felicidad llene sus corezones."
+        android:textColorHighlight="#FF2BE0"
+        android:layout_centerHorizontal="true"
+        android:textSize="24dp"
+        android:textColor="#6704ab"
+        android:id="@+id/textView"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:layout_above="@+id/textView2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
